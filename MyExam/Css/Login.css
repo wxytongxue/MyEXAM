@@ -1,0 +1,93 @@
+﻿body {
+    /* clear style */    
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background:#ffffff url("/Images/bg.png");
+    background-repeat:repeat-x;
+}
+
+/*登录中心矩形*/
+#Login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -250px;
+    width: 500px;
+    height: 350px;
+    border:2px solid white;
+    box-shadow: 0px 0px 20px #fff;
+    background:#ffffff;
+    border-radius: 15px;
+}
+.title_input{
+    width: 100%;
+    height: 70%;
+}
+/*登录标题*/
+#Login_title{
+    width: 100%;
+    height: 30%;
+}
+hr{
+    size: 1px;
+    margin: 0;
+}
+
+.title_table{
+      width: 100%;
+    height: 100%;
+}
+
+
+
+.title_tr{
+    width: 100%;
+    height: 100%;
+}
+
+.title_left_right{
+    width:150px;
+    height: 100%;
+}
+
+
+.title{
+    line-height: 100%;
+    font-size:25px;
+    color: #CDCDC1;
+    text-align: center;
+}
+
+.tb_input{
+    width: 80%;
+    height: 80%;
+    /*border: 1px solid #ff0000;*/
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.cell_one{
+    width: 30%;
+    /*border:1px solid #ff0000;*/
+    text-align: right;
+}
+
+.cell_two{
+    width: 40%;
+    /*border:1px solid #ff0000;*/
+}
+.cell_three{
+    width: 30%;
+    /*border:1px solid #ff0000;*/
+}
+
+.cell_txt{
+    margin-right: 10px;
+}
+
+.cell_class{
+    line-height: 100%;
+}
